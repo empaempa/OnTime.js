@@ -53,7 +53,7 @@ OnTime.Timeline = (function() {
 					module.start( deltaTime, localTime, globalTime );
 				}
 				module.tweenProperties( deltaTime, localTime, globalTime );
-				module.update( deltaTime, localTime, globalTime );
+				//module.update( deltaTime, localTime, globalTime );
 			}
 		}
 	}

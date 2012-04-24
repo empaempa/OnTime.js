@@ -68,7 +68,7 @@ var TestBench = (function() {
 	testbench.render = function() {
 		requestAnimationFrame( testbench.render );
 		time += delta;
-		OnTime.update( delta, time );
+		OnTime.update( time );
 	}
 
 	return testbench;
